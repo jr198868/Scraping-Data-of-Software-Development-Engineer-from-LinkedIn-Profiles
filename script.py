@@ -28,8 +28,8 @@ password = driver.find_element_by_name('session_password')#code has been modifie
 password.send_keys(paramaters.linkedin_password)
 sleep(0.5)
 
-sign_in_button = driver.find_element_by_class_name('sign-in-form__submit-btn')
-sign_in_button.click()
+next_page_button = driver.find_element_by_class_name('sign-in-form__submit-btn')
+next_page_button.click()
 sleep(5)
 
 driver.get('https://www.google.com')
